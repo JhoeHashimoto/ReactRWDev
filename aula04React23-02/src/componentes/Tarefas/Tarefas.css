@@ -1,0 +1,8 @@
+li{
+    list-style: none;
+    padding: 8px;
+    background-color: rgb(164, 174, 207);
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}

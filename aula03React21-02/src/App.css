@@ -1,0 +1,24 @@
+h1{
+    color: #333;
+    font-size: 80px;
+    text-align: center;
+}
+h2{
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+}
+
+.exemplo01{
+        text-align: center;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
