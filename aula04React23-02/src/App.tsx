@@ -4,6 +4,9 @@ import AdicionarTarefa from './componentes/Tarefas/AdicionarTarefa/AdicionarTare
 import Cofrinho from './componentes/cofrinho';
 import Exemplo01 from './componentes/Exemplos/Exemplo01';
 import './App.css';
+import Exemplo02Effect from './componentes/Exemplos/Exemplo02Effect';
+
+import relogio from './componentes/RELOGIO/relogio';
 
 const App: React.FC = () =>{
   const[tarefas,setTarefas] = useState<string[]>([]);
@@ -18,6 +21,7 @@ const App: React.FC = () =>{
        <Cofrinho></Cofrinho>
        <br></br>
        <Exemplo01></Exemplo01>
+       <Exemplo02Effect></Exemplo02Effect>
     </>
   )
 }
